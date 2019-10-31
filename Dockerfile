@@ -41,7 +41,7 @@ WORKDIR $USER_HOME
 
 COPY --from=fcrepo /home/fedora/ .
 
-RUN chown -R $USER_NAME: *
+RUN chown -R $USER_NAME: .
 
 USER $USER_NAME
 ADD files/policies.tgz $FEDORA_HOME/data/
