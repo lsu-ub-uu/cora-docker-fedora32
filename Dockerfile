@@ -41,6 +41,8 @@ WORKDIR $USER_HOME
 
 COPY --from=fcrepo /home/fedora/ .
 
+USER root
+
 RUN chown -R $USER_NAME: .
 
 USER $USER_NAME
