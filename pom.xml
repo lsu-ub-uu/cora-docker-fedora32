@@ -31,19 +31,6 @@
     </scm>
 
     <dependencies>
-        <!-- fcrepo installer -->
-<!--         <dependency> -->
-<!--             <groupId>org.fcrepo</groupId> -->
-<!--             <artifactId>fcrepo-installer</artifactId> -->
-<!--             <version>3.8.1</version> -->
-<!--             <exclusions> -->
-<!--                 <exclusion> -->
-<!--                     <groupId>*</groupId> -->
-<!--                     <artifactId>*</artifactId> -->
-<!--                 </exclusion> -->
-<!--             </exclusions> -->
-<!--         </dependency> -->
-        <!-- JDBC driver -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
