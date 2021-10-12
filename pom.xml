@@ -22,7 +22,7 @@
     <artifactId>cora-docker-fedora-3.2.1</artifactId>
     <packaging>pom</packaging>
     <version>1.0.1</version>
-    <name>Cora Fedora Repository Docker</name>
+    <name>Cora Fedora Repository Docker 3.2</name>
 
     <scm>
         <connection>scm:git:https://github.com/lsu-ub-uu/cora-docker-fedora32.git</connection>
